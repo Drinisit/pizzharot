@@ -4,7 +4,7 @@ import HeroImage from '../assets/hero-pizza.png'
 const Hero = () => {
   return (
     <div className='w-full'>
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 justify-between'>
             <div className='text-white'>
                 <h1>NILIBRE NG PIZZA PERO CHINAROT</h1>
 
