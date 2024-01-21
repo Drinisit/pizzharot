@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pizzharot/static/css/main.36eb1093.css",
-    "main.js": "/pizzharot/static/js/main.64adce32.js",
+    "main.css": "/pizzharot/static/css/main.0cf2629e.css",
+    "main.js": "/pizzharot/static/js/main.1381b87b.js",
     "static/media/hero-pizza.png": "/pizzharot/static/media/hero-pizza.d201640053ef14b2529d.png",
     "index.html": "/pizzharot/index.html",
-    "main.36eb1093.css.map": "/pizzharot/static/css/main.36eb1093.css.map",
-    "main.64adce32.js.map": "/pizzharot/static/js/main.64adce32.js.map"
+    "main.0cf2629e.css.map": "/pizzharot/static/css/main.0cf2629e.css.map",
+    "main.1381b87b.js.map": "/pizzharot/static/js/main.1381b87b.js.map"
   },
   "entrypoints": [
-    "static/css/main.36eb1093.css",
-    "static/js/main.64adce32.js"
+    "static/css/main.0cf2629e.css",
+    "static/js/main.1381b87b.js"
   ]
 }
