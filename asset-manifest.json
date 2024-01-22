@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/pizzharot/static/css/main.18b21e99.css",
-    "main.js": "/pizzharot/static/js/main.c3859d7d.js",
+    "main.css": "/pizzharot/static/css/main.c60fc086.css",
+    "main.js": "/pizzharot/static/js/main.2769b1f0.js",
+    "static/media/bgwood.jpg": "/pizzharot/static/media/bgwood.e46b6bf460e8b37c90a2.jpg",
     "static/media/hero-pizza.png": "/pizzharot/static/media/hero-pizza.d201640053ef14b2529d.png",
     "index.html": "/pizzharot/index.html",
-    "main.18b21e99.css.map": "/pizzharot/static/css/main.18b21e99.css.map",
-    "main.c3859d7d.js.map": "/pizzharot/static/js/main.c3859d7d.js.map"
+    "main.c60fc086.css.map": "/pizzharot/static/css/main.c60fc086.css.map",
+    "main.2769b1f0.js.map": "/pizzharot/static/js/main.2769b1f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.18b21e99.css",
-    "static/js/main.c3859d7d.js"
+    "static/css/main.c60fc086.css",
+    "static/js/main.2769b1f0.js"
   ]
 }
