@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/pizzharot/static/css/main.be1600cc.css",
-    "main.js": "/pizzharot/static/js/main.fd6b194c.js",
-    "static/media/bgwood.jpg": "/pizzharot/static/media/bgwood.e46b6bf460e8b37c90a2.jpg",
-    "static/media/hero-pizza.png": "/pizzharot/static/media/hero-pizza.d201640053ef14b2529d.png",
+    "main.css": "/pizzharot/static/css/main.3e1f00df.css",
+    "main.js": "/pizzharot/static/js/main.97c7b824.js",
+    "static/media/pizzharap-hero1.jpg": "/pizzharot/static/media/pizzharap-hero1.c652a7cce442752de4c8.jpg",
     "index.html": "/pizzharot/index.html",
-    "main.be1600cc.css.map": "/pizzharot/static/css/main.be1600cc.css.map",
-    "main.fd6b194c.js.map": "/pizzharot/static/js/main.fd6b194c.js.map"
+    "main.3e1f00df.css.map": "/pizzharot/static/css/main.3e1f00df.css.map",
+    "main.97c7b824.js.map": "/pizzharot/static/js/main.97c7b824.js.map"
   },
   "entrypoints": [
-    "static/css/main.be1600cc.css",
-    "static/js/main.fd6b194c.js"
+    "static/css/main.3e1f00df.css",
+    "static/js/main.97c7b824.js"
   ]
 }
