@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pizzharot/static/css/main.94d8df1d.css",
-    "main.js": "/pizzharot/static/js/main.be1bf837.js",
+    "main.css": "/pizzharot/static/css/main.2ebb83c9.css",
+    "main.js": "/pizzharot/static/js/main.e48c7130.js",
     "static/media/pizza1.png": "/pizzharot/static/media/pizza1.0225401e1fed291a1503.png",
     "static/media/pizza2.png": "/pizzharot/static/media/pizza2.42f1f68ac2daad50d811.png",
     "static/media/pizza3.png": "/pizzharot/static/media/pizza3.f2b15fa630a141117277.png",
@@ -20,12 +20,13 @@
     "static/media/pizzaAloha.png": "/pizzharot/static/media/pizzaAloha.94ee66f07388440688de.png",
     "static/media/pizzaHam&Cheese.png": "/pizzharot/static/media/pizzaHam&Cheese.222e0b9e41318574f244.png",
     "static/media/pizzaCarbonara.png": "/pizzharot/static/media/pizzaCarbonara.50e176e07988104205cc.png",
+    "static/media/Pizzaria-MVZrJ.ttf": "/pizzharot/static/media/Pizzaria-MVZrJ.488e02f1405d975f0f5d.ttf",
     "index.html": "/pizzharot/index.html",
-    "main.94d8df1d.css.map": "/pizzharot/static/css/main.94d8df1d.css.map",
-    "main.be1bf837.js.map": "/pizzharot/static/js/main.be1bf837.js.map"
+    "main.2ebb83c9.css.map": "/pizzharot/static/css/main.2ebb83c9.css.map",
+    "main.e48c7130.js.map": "/pizzharot/static/js/main.e48c7130.js.map"
   },
   "entrypoints": [
-    "static/css/main.94d8df1d.css",
-    "static/js/main.be1bf837.js"
+    "static/css/main.2ebb83c9.css",
+    "static/js/main.e48c7130.js"
   ]
 }
