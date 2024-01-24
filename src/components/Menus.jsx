@@ -13,8 +13,8 @@ const Menus = () => {
             <h1 className='pizzaria text-amber-500 font-boldbold text-center md:text-[7rem] text-[4rem]'>Pizza Harot</h1>
             <p className='pizzaria text-amber-500 text-center md:text-[3rem] text-3xl mt-[-2rem]'>The Best selling Pizza</p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-4'>
-            <div className='border flex flex-col border-amber-500 rounded-md py-6 px-4'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-4 sm:px-16 md:px-10 px-20'>
+            <div className='border flex flex-col border-amber-500 rounded-md  py-6 px-4'>
                   <img className='mx-auto mt-[-8rem]' src={Pizza1} alt="" />
                   <h1 className='text-xl font-medium text-center mt-[-1rem]'>Pepperoni Pizza</h1>
                   <p className='text-center pb-1 font-medium'>&#8369;350</p>
