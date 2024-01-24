@@ -9,6 +9,10 @@ const Menus = () => {
   return (
     <div className='w-full h-screen'>
       <div className='max-w-[1240px] py-20 text-gray-200 mx-auto'>
+        <div className='w-full mb-32'>
+            <h1 className='pizzaria text-amber-500 text-[8rem] font-boldbold text-center'>Pizza Harot</h1>
+            <p className='pizzaria text-amber-500 text-center text-[3rem] mt-[-4rem]'>The Best selling Pizza</p>
+        </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-4'>
             <div className='border flex flex-col border-amber-500 rounded-md py-6 px-4'>
                   <img className='mx-auto mt-[-8rem]' src={Pizza1} alt="" />

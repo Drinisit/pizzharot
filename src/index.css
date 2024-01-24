@@ -5,3 +5,11 @@
 body{
     background-color: #0f172a;
 }
+
+@font-face {
+    font-family: pizzaria;
+    src: url(../src/font/Pizzaria-MVZrJ.ttf);
+}
+.pizzaria{
+    font-family: pizzaria;
+}
