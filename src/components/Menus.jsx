@@ -43,7 +43,10 @@ const Menus = () => {
                   <button className='py-1 px-3 mt-2 cursor-pointer hover:text-amber-500'>Now Order</button>
               </div>
         </div>
-        <div className='mt-6 grid grid-cols-6 gap-4'>
+        <div className='mt-6 grid sm:grid-cols-3 md:grid-cols-6 gap-4'>
+          <div className='text-2xl font-bold mt-4 sm:col-span-3 md:col-span-6'>
+            <h1>Other Pizza Flavor</h1>
+          </div>
               <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizza5Cheese } alt="" />
