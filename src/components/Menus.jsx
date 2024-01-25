@@ -18,30 +18,30 @@ const Menus = () => {
             <p className='text-3xl font-bold text-center'>The Orginals</p>
         </div>
         <div className=''>
-            <div className='grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-4'>
-                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-10 mt-[7rem]'>
-                    <img className='md:mt-0 mt-[-6rem] ' src={Pizza1} alt="" />
+            <div className='grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-4 md:px-0 px-8'>
+                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-[6rem] mt-[7rem]'>
+                    <img className='md:mt-[-5rem] mt-[-6rem] mx-auto w-10/12' src={Pizza1} alt="" />
                     <h1 className=''>Pepperoni Pizza</h1>
                     <p className=''>&#8369;350</p>
                     <p>Reprehenderit, assumenda qui cum voluptas accusamus minus tenetur error? Quasi odio alias ratione repellat aspernatur amet quia doloribus incidunt autem hatnog aperiam!</p>
                     <button className='py-1 px-3 cursor-pointer hover:text-amber-500'>Now Order</button>
                 </div>
-                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-10 mt-[7rem]'>
-                    <img className='md:mt-0 mt-[-6rem]' src={Pizza2} alt="" />
+                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-[6rem] mt-[7rem]'>
+                    <img className='md:mt-[-5rem] mt-[-6rem] mx-auto w-10/12' src={Pizza2} alt="" />
                     <h1 className=''>Hawaiian Pizza</h1>
                     <p className=''>&#8369;350</p>
                     <p>Tempora doloremque quo, accusamus nesciunt reprehenderit iste porro fugit sint voluptatum autem delectus, itaque eveniet saepe voluptatibus, dignissimos.</p>
                     <button className='py-1 px-3 cursor-pointer hover:text-amber-500'>Now Order</button>
                 </div>
-                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-10 mt-[7rem]'>
-                    <img className='md:mt-0 mt-[-6rem]' src={Pizza3} alt="" />
+                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-[6rem] mt-[7rem]'>
+                    <img className='md:mt-[-5rem] mt-[-6rem] mx-auto w-10/12' src={Pizza3} alt="" />
                     <h1 className=''>Cheese Pizza</h1>
                     <p className=''>&#8369;350</p>
                     <p>Lorem, ipsum dolor sit amet. Magni doloremque molestiae dolore odio praesentium vel est provident debitis, sequi enim eius ut aperiam quo placeat natus nesciunt autem.</p>
                     <button className='py-1 px-3 cursor-pointer hover:text-amber-500'>Now Order</button>
                 </div>
-                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-10 mt-[7rem]'>
-                    <img className='md:mt-0 mt-[-6rem]' src={Pizza4} alt="" />
+                <div className='border flex flex-col border-amber-500 rounded-md pb-4 px-4 md:mt-[6rem] mt-[7rem]'>
+                    <img className='md:mt-[-5rem] mt-[-6rem] mx-auto w-10/12' src={Pizza4} alt="" />
                     <h1 className=''>Classic Pizza</h1>
                     <p className=''>&#8369;350</p>
                     <p>Eveniet dolor porro delectus, molestias tempore eius dolorum, dolorem iure asperiores cumque, accusamus animi! Aliquid distinctio libero laudantium  beatae impedit.</p>
