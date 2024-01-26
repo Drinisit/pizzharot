@@ -50,112 +50,112 @@ const Menus = () => {
           <div className='mt-4 sm:col-span-4 md:col-span-6 col-span-3'>
             <h1 className='text-2xl font-bold'>Other Pizza Flavor</h1>
           </div>
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizza5Cheese } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Letcheese</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaAloha } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Uloha</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaAmericanBacon } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Pinoycon</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaBaconMushroom } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Kabuteng Baboy</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaBaconSpinach } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Kinangkong na Baboy</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaCarbonara } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Spaghetting walang Lasa</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaDeluxe } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Bongga kaday</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaExtravaganzza } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Pinaka Bongga</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaHamCheese } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Kinesong Baboy</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaMeatzza } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Kinarneng baboy</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaSpinachFeta } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Kangkong na biskwit</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
 
-              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden'>
+              <div className='border flex flex-col border-amber-500 rounded-md px-1 py-4 overflow-hidden hover:scale-105 duration-500'>
                   <div className='mt-[-5rem]'>
                   <img src={ pizzaImages.pizzaUltimatePepperoni } alt="" />
                   </div>
                   <h1 className='text-center font-medium'>Ultimate Pepe ni roni</h1>
                   <p className='text-center mb-1'>&#8369;150</p>
-                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2'>Order</button>
+                  <button className='bg-amber-500 text-black rounded-md mx-auto w-1/2 md:text-base text-sm'>Order</button>
               </div>
         </div>
           
