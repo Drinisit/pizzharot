@@ -1,4 +1,8 @@
 const pizzaImages ={
+    pizza1Classic: require('../assets/pizza1Classic.png'),
+    pizza2Classic: require('../assets/pizza2Classic.png'),
+    pizza3Classic: require('../assets/pizza3Classic.png'),
+    pizza4Classic: require('../assets/pizza4Classic.png'),
     pizza5Cheese: require('../assets/pizza5Cheese.png'),
     pizzaAloha: require('../assets/pizzaAloha.png'),
     pizzaAmericanBacon: require('../assets/pizzaAmericanBacon.png'),
