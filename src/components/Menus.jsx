@@ -3,7 +3,7 @@ import pizzaImages from '../components/Pizzamenu.js'
 
 const Menus = () => {
   return (
-    <div className='w-full relative px-6 py-16 h-screen'>
+    <div className='w-full px-6 py-12 h-screen'>
       <div className='max-w-[1240px] text-gray-200 mx-auto'>
         <div className='w-full'>
             <h1 className='pizzaria text-amber-500 font-bold text-center md:text-[4rem] text-[4rem]'>Pizza Harot</h1>

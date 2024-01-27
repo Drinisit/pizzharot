@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Menus from "./components/Menus";
+import Bundle from "./components/Bundle";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Menus />
+      <Bundle />
     </div>
   );
 }
