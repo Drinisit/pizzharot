@@ -6,7 +6,7 @@ import Pizza from '../assets/hero-pizza.png'
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full'>
       <div className='absolute bg-gradient-to-t from-slate-900 w-full h-full'></div>
       <img className='top-0 left-0 w-full h-screen object-cover' src={HeroImage} alt="" />
       <img className='absolute top-1/4 right-1/4' src={Pizza} alt="" />  
