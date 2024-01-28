@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Menus from "./components/Menus";
 import Bundle from "./components/Bundle";
+import Inquiry from "./components/Inquiry";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Menus />
       <Bundle />
+      <Inquiry />
     </div>
   );
 }
