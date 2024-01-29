@@ -1,5 +1,11 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Image1 from '../assets/coachApple.png'
+import Image2 from '../assets/coachSara.png'
+import Image3 from '../assets/coachBamboo.png'
+import Image4 from '../assets/coachLeah.png'
+import Image5 from '../assets/coachChito.png'
+import Image6 from '../assets/coachMartin.png'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -40,12 +46,49 @@ const Review = () => {
                         modules={[Pagination]}
                         className="mySwiper"
                         >
-                        <SwiperSlide>Slide 1</SwiperSlide>
-                        <SwiperSlide>Slide 2</SwiperSlide>
-                        <SwiperSlide>Slide 3</SwiperSlide>
-                        <SwiperSlide>Slide 4</SwiperSlide>
-                        <SwiperSlide>Slide 5</SwiperSlide>
-                        <SwiperSlide>Slide 6</SwiperSlide>
+                        <SwiperSlide className='border border-amber-500 rounded-lg p-4'>
+                            <img className='bg-amber-500 rounded-full' src={Image1} alt="" />
+                            <p className='text-base my-2 text-justify'>Goods naman yung lasa. Mahal nga lang pero goods pang barkada, pizza and alak best combo sheeeesh!. Pag ganito ang nasa babalik balikan talaga recommended sa lahat.</p>
+
+                            <h2 className='text-lg text-amber-500 font-semibold '>Coach Apple</h2>
+                            <p className='text-base text-gray-200 mb-4'>The Voice Coach</p>
+                        </SwiperSlide>
+
+                        <SwiperSlide className='border border-amber-500 rounded-lg p-4'>
+                            <img className='bg-amber-500 rounded-full' src={Image2} alt="" />
+                            <p className='text-base my-2 text-justify'>Goods naman yung lasa. Mahal nga lang pero goods pang barkada, pizza and alak best combo sheeeesh!. Pag ganito ang nasa babalik balikan talaga recommended sa lahat.</p>
+
+                            <h2 className='text-lg text-amber-500 font-semibold '>Coach Sarah</h2>
+                            <p className='text-base text-gray-200 mb-4'>The Voice Coach</p>
+                        </SwiperSlide>
+                        <SwiperSlide className='border border-amber-500 rounded-lg p-4'>
+                            <img className='bg-amber-500 rounded-full' src={Image3} alt="" />
+                            <p className='text-base my-2 text-justify'>Goods naman yung lasa. Mahal nga lang pero goods pang barkada, pizza and alak best combo sheeeesh!. Pag ganito ang nasa babalik balikan talaga recommended sa lahat.</p>
+
+                            <h2 className='text-lg text-amber-500 font-semibold '>Coach Bamboo</h2>
+                            <p className='text-base text-gray-200 mb-4'>The Voice Coach</p>
+                        </SwiperSlide>
+                        <SwiperSlide className='border border-amber-500 rounded-lg p-4'>
+                            <img className='bg-amber-500 rounded-full' src={Image4} alt="" />
+                            <p className='text-base my-2 text-justify'>Goods naman yung lasa. Mahal nga lang pero goods pang barkada, pizza and alak best combo sheeeesh!. Pag ganito ang nasa babalik balikan talaga recommended sa lahat.</p>
+
+                            <h2 className='text-lg text-amber-500 font-semibold '>Coach Leah</h2>
+                            <p className='text-base text-gray-200 mb-4'>The Voice Coach</p>
+                        </SwiperSlide>
+                        <SwiperSlide className='border border-amber-500 rounded-lg p-4'>
+                            <img className='bg-amber-500 rounded-full' src={Image5} alt="" />
+                            <p className='text-base my-2 text-justify'>Goods naman yung lasa. Mahal nga lang pero goods pang barkada, pizza and alak best combo sheeeesh!. Pag ganito ang nasa babalik balikan talaga recommended sa lahat.</p>
+
+                            <h2 className='text-lg text-amber-500 font-semibold '>Coach Chito</h2>
+                            <p className='text-base text-gray-200 mb-4'>The Voice Coach</p>
+                        </SwiperSlide>
+                        <SwiperSlide className='border border-amber-500 rounded-lg p-4'>
+                            <img className='bg-amber-500 rounded-full' src={Image6} alt="" />
+                            <p className='text-base my-2 text-justify'>Goods naman yung lasa. Mahal nga lang pero goods pang barkada, pizza and alak best combo sheeeesh!. Pag ganito ang nasa babalik balikan talaga recommended sa lahat.</p>
+
+                            <h2 className='text-lg text-amber-500 font-semibold '>Coach Martin</h2>
+                            <p className='text-base text-gray-200 mb-4'>The Voice Coach</p>
+                        </SwiperSlide>
                      </Swiper>
                 </div>
                 
