@@ -8,19 +8,17 @@ const Contact = () => {
                 <h1 className='text-3xl text-white uppercase font-bold'>Get exclusive offer</h1>
                 <p className='text-white pt-4'>Be the first one to get our best excluse offer for cheaper price.</p>
             </div>
-            <div className='grid grid-cols-3'>
+            <div className='my-auto grid grid-cols-3'>
                 <div className='col-span-2'>
-                <form action="#">
-                    <input className='w-full px-4 py-1 rounded-md' type="email" placeholder='Email' />
-                </form>
+                    <form action="#">
+                        <input className='w-full px-4 py-1 rounded-md' type="email" placeholder='Email' />
+                    </form>
                 </div>
 
                 <div className='mx-auto'>
                      <button className='text-white bg-[#0f172a] rounded-md px-4 py-1'>Subscribe</button>
-                </div>
-            
-           
-        </div>
+                </div>        
+            </div>
         </div>
 
        
