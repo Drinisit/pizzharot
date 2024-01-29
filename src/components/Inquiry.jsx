@@ -5,7 +5,7 @@ import Pizzabox from '../assets/bundleBox.png'
 const Inquiry = () => {
   return (
     <div className='w-full px-6 md:py-16 py-8'>
-        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 grid-cols-1 gap-8'>
+        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 grid-cols-1 gap-4'>
 
                 <div className='flex flex-col'>
                     <img src={Model} alt="" />

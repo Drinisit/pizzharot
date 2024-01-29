@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Menus from "./components/Menus";
 import Bundle from "./components/Bundle";
 import Inquiry from "./components/Inquiry";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Menus />
       <Bundle />
       <Inquiry />
+      <Contact />
     </div>
   );
 }
