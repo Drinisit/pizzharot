@@ -5,6 +5,7 @@ import Menus from "./components/Menus";
 import Bundle from "./components/Bundle";
 import Inquiry from "./components/Inquiry";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Bundle />
       <Inquiry />
       <Contact />
+      <Footer />
     </div>
   );
 }
