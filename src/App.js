@@ -6,6 +6,7 @@ import Bundle from "./components/Bundle";
 import Inquiry from "./components/Inquiry";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Review from "./components/Review";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Menus />
       <Bundle />
       <Inquiry />
+      <Review />
       <Contact />
       <Footer />
     </div>
