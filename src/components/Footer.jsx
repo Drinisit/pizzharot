@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='w-full px-6 md:py-16 py-8'>
         <div className='max-w-[1240px] mx-auto text-white grid md:grid-cols-4 grid-cols-1 gap-6'>
-            <div>
+            <div className='pt-1'>
                 <img className='h-6' src={Logo} alt="" />
                 <p className='pt-2'>This page is for practice only. I dont own this images. All image are credit to the rightful owners.</p>
             </div>
@@ -22,14 +22,14 @@ const Footer = () => {
             </div>
             <div>
                 <h1 className='text-xl font-semibold uppercase'>Phone</h1>
-                <div className='flex flex-row'>
+                <div className='flex flex-row pt-2'>
                 <FaPhoneAlt className='text-xl mt-1' />
                 <p>+636969-696-69696</p>
                 </div>
                 
             
                 <h1 className='text-xl font-semibold uppercase pt-3'>EMAIL</h1>
-                <div className='flex flex-row'>
+                <div className='flex flex-row pt-1'>
                 <MdEmail className='text-xl mt-1' />
                 <p>pizzharot.official@gmail.com</p>
                 </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                 
             </div>
             <div className='text-center pt-6 md:col-span-4'>
-                <p>This page is created using Reactjs and TailwindCss</p>
+                <p>This page is created using Reactjs and TailwindCss.Copyright &copy; 2024 All rights Reserve.</p>
             </div>
         </div>
     </div>
