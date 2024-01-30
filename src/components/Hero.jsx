@@ -6,9 +6,11 @@ import Pizza from '../assets/hero-pizza.png'
 
 const Hero = () => {
   return (
-    <div className='w-full'>
-      <div className='absolute bg-gradient-to-t from-slate-900 w-full h-full mt-2'></div>
+    <div className='w-full relative'>
+      <div className='absolute bg-gradient-to-t from-slate-900 w-full h-full'/>
+      
       <img className='top-0 left-0 w-full h-screen object-cover' src={HeroImage} alt="" />
+      <div className='max-w-[1240px] mx-auto'>
       <img className='absolute top-1/4 right-1/4' src={Pizza} alt="" />  
         <div className='max-w-[1240px] mx-auto items-center p-4 top-0 w-full h-screen absolute flex flex-col justify-center text-gray-200'>
            <div className=''>
@@ -19,9 +21,7 @@ const Hero = () => {
                 <button className='bg-white text-black text-xl rounded-md py-2 px-4'>How to order</button> 
                 <button className='bg-white text-black text-xl rounded-md py-2 px-4 ml-8'>See more</button>
              </div>   
-
-    
-                 
+      </div>    
      
         </div>
     </div>

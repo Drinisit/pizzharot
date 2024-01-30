@@ -15,42 +15,42 @@ const Footer = () => {
             </div>
 
             <div>
-                <h1 className='font-semibold uppercase pt-3 md:text-base text-xs'>Support</h1>
-                <p className='pt-1'>FAQ's</p>
-                <p className='pt-1'>Privacy Policy</p>
-                <p className='pt-1'>Terms & Conditions</p>
-                <p className='pt-1'>Contact</p>
+                <h1 className='font-semibold uppercase pt-3 md:text-base text-sm'>Support</h1>
+                <p className='pt-1 md:text-lg text-sm'>FAQ's</p>
+                <p className='pt-1 md:text-lg text-sm'>Privacy Policy</p>
+                <p className='pt-1 md:text-lg text-sm'>Terms & Conditions</p>
+                <p className='pt-1 md:text-lg text-sm'>Contact</p>
             </div>
 
             <div>
-                <h1 className='font-semibold uppercase pt-3 md:text-base text-xs'>Phone</h1>
-                <div className='flex flex-row pt-2'>
+                <h1 className='font-semibold uppercase pt-3 md:text-base text-sm'>Phone</h1>
+                <div className='flex flex-row pt-2 md:text-lg text-sm'>
                 <FaPhoneAlt className='mt-1' />
                 <p className='ml-1'>+636969-696-69696</p>
                 </div>
                 
-                <h1 className='font-semibold uppercase pt-3 md:text-base text-xs'>EMAIL</h1>
-                <div className='flex flex-row pt-1 md:text-lg text-base'>
+                <h1 className='font-semibold uppercase pt-3 md:text-base text-sm'>EMAIL</h1>
+                <div className='flex flex-row pt-1 md:text-lg text-sm'>
                 <MdEmail className='md:mt-2 mt-1' />
                 <p className='ml-1'>pizzharot@gmail.com</p>
                 </div>
             </div>
 
             <div>
-                <h1 className='font-semibold uppercase pt-3 md:text-base text-xs'>Address</h1>
-                <div className='flex flex-row pt-2 md:text-lg text-base'>
+                <h1 className='font-semibold uppercase pt-3 md:text-base text-sm'>Address</h1>
+                <div className='flex flex-row pt-2 md:text-lg text-sm'>
                 <MdLocationOn className='mt-1' />
                 <p className='ml-1'>West Philippine Sea</p>
                 </div>
                 
-                <h1 className='font-semibold uppercase pt-3 md:text-lg text-xs'>Follow Us</h1>
+                <h1 className='font-semibold uppercase pt-3 md:text-lg text-sm'>Follow Us</h1>
                 <div className='flex flex-row gap-2 pt-2 md:text-xl text-base'>
                 <FaFacebook className='hover:text-amber-500'/>
                 <FaSquareXTwitter className='hover:text-amber-500' />
                 <FaInstagramSquare className='hover:text-amber-500'/></div>
             </div>
 
-            <div className='text-center md:pt-8 pt-4 md:col-span-4 md:text-base text-xs'>
+            <div className='text-center pt-8 md:col-span-4 md:text-base text-xs'>
                 <p>This page is created using Reactjs and TailwindCss.Copyright &copy; 2024 All rights Reserve.</p>
             </div>
         </div>
