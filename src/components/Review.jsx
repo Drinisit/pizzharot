@@ -19,8 +19,11 @@ import { Pagination } from 'swiper/modules';
 
 const Review = () => {
     return (
-        <div className='w-full px-6 md:py-16 py-8'>
-            <div className='max-w-[1240px] mx-auto'>
+        <div className='w-full px-6 md:py-10 py-8'>
+            <div className='max-w-[1240px] mx-auto mb-10'>
+                <div className="mb-6">
+                    <h1 className="text-3xl text-center text-amber-500 font-bold">Reviews</h1>
+                </div>
 
                 <div>
                     <Swiper

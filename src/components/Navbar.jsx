@@ -27,7 +27,7 @@ const Navbar = () => {
 
                 </div>
             
-                <ul className={`md:flex md:items-center text-white md:pb-0 pb-12 absolute md:static bg-slate-950/50 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-14 opacity-100' :'top-[-490px]'} md:opacity-100 opacity-0`}>
+                <ul className={`md:flex md:items-center text-white md:pb-0 pb-12 absolute md:static bg-slate-950/90 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 opacity-100' :'top-[-490px]'} md:opacity-100 opacity-0`}>
                     {
                         Links.map((link) => (
                             <li key={link.name} className='md:ml-8 md:my-0 my-4'>
