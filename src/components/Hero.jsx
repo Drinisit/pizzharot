@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/pizzaHero.jpg'
+import HeroImage from '../assets/pizzaBghero.jpg'
 
 
 
