@@ -14,7 +14,7 @@ const Navbar = () => {
 
     let [open,setOpen] = useState(false);
   return (
-    <div className='bg-slate-950/90 z-50 w-full top-0 left-0'>
+    <div className='bg-slate-950/90 relative z-[999] w-full top-0 left-0'>
         <div className='md:flex items-center justify-between md:px-10 px-7 md:py-4 py-3 '>
          
                 <div className=''>

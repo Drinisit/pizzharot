@@ -1,6 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/pizzharap-hero1.jpg'
-import Pizza from '../assets/hero-pizza.png'
+import HeroImage from '../assets/pizzaHero.jpg'
 
 
 
@@ -9,8 +8,7 @@ const Hero = () => {
     <div className='w-full'>
       <div className='absolute bg-gradient-to-t from-slate-900 w-full h-full mt-2'></div>
       <img className='top-0 left-0 w-full h-screen object-cover' src={HeroImage} alt="" />
-      <img className='absolute top-1/4 right-1/4' src={Pizza} alt="" />  
-        <div className='max-w-[1240px] mx-auto items-center p-4 top-0 w-full h-screen absolute flex flex-col justify-center text-gray-200'>
+        <div className='max-w-[1240px] mx-auto items-center p-4 top-10 w-full h-screen absolute flex flex-col justify-center text-gray-200'>
            <div className=''>
                <h1 className='text-4xl font-bold uppercase md:text-6xl drop-shadow-xl'>Nilibre ng pizza pero chinarot</h1>
 
