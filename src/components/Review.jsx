@@ -21,6 +21,9 @@ const Review = () => {
     return (
         <div className='w-full px-6 md:py-16 py-8'>
             <div className='max-w-[1240px] mx-auto'>
+                <div className="text-xl text-center text-amber-500 font-bold py-4">
+                    <h1>Costume Reviews</h1>
+                </div>
 
                 <div>
                     <Swiper
