@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import Logo from '../assets/pizzharot.png'
 import Button from './Button.jsx'
 import { IoIosClose, IoMdMenu } from "react-icons/io";
+import MenuList from '../pages/MenuList.jsx';
 
 const Navbar = () => {
     const Links = [
         {name:'Home', link: '/'},
-        {name:'Menu', link: '/'},
+        {name:'Menu', link: '/menulist'},
         {name:'Location', link: '/'},
         {name:'About', link: '/'},
         {name:'Contact', link: '/'},
