@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import Logo from '../assets/pizzharot.png'
 import Button from './Button.jsx'
 import { IoIosClose, IoMdMenu } from "react-icons/io";
-import MenuList from '../pages/MenuList.jsx';
+import Products from '../pages/Products.jsx';
+
 
 const Navbar = () => {
     const Links = [
         {name:'Home', link: '/'},
-        {name:'Menu', link: '/menulist'},
+        {name:'Menu', link: <Products/>},
         {name:'Location', link: '/'},
         {name:'About', link: '/'},
         {name:'Contact', link: '/'},
@@ -18,7 +19,7 @@ const Navbar = () => {
     <div className='bg-slate-950/90 relative z-[999] w-full top-0 left-0'>
         <div className='md:flex items-center justify-between md:px-10 px-7 md:py-4 py-3 '>
          
-                <div className=''>
+                <div>
                     <img className='h-6 flex items-center cursor-pointer' src={Logo} alt="" />
                 </div>
                 <div onClick={()=>setOpen(!open)} className='text-2xl text-white absolute top-3 right-8 cursor-pointer md:hidden'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-const NoPage = () => {
+const NotFound = () => {
   return (
     <div>
         <Navbar />
@@ -11,4 +11,4 @@ const NoPage = () => {
   )
 }
 
-export default NoPage
+export default NotFound

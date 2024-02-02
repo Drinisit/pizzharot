@@ -1,26 +1,38 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Menus from "./components/Menus";
-import Bundle from "./components/Bundle";
-import Inquiry from "./components/Inquiry";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Review from "./components/Review";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+import Home from './pages/Home'
+import Products from "./pages/Products";
+import RootLayout from "./pages/RootLayout";
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      {
+        path: '/',
+        element: <Home />
+      },
+      {
+        path: '/products',
+        element: <Products />
+      },
+    ]
+  },
+  
+])
+
+
 
 
 
 function App() {
   return (
     <div>
-        <Navbar />
-        <Hero />
-        <Menus />
-        <Bundle />
-        <Inquiry />
-        <Review />
-        <Contact />
-        <Footer />
+      <RouterProvider router={router} />
+
     </div>
   );
 }
