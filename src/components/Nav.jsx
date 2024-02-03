@@ -15,7 +15,6 @@ const Nav = () => {
                     <li><Link to='/products'>Menu</Link></li>
                 </ul>
                 
-                
             </div>
         </div>
     </div>

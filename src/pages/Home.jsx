@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import Menus from "../components/Menus";
 import Bundle from "../components/Bundle";
@@ -11,7 +10,6 @@ import Review from "../components/Review";
 const Home = () => {
   return (
     <div>
-        <Nav />
         <Hero />
         <Menus />
         <Bundle />

@@ -8,7 +8,7 @@ body{
 
 @font-face {
     font-family: pizzaria;
-    src: url(../src/font/Pizzaria-MVZrJ.ttf);
+    src: url(../public/font/Pizzaria-MVZrJ.ttf);
 }
 .pizzaria{
     font-family: pizzaria;
