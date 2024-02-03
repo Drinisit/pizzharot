@@ -23,7 +23,7 @@ const Nav = () => {
 
   
   return (
-    <div>
+    <div className='bg-slate-950/90 relative z-[999] w-full top-0 left-0'>
         <div className='md:flex items-center justify-between md:px-10 px-7 md:py-4 py-3 '>
             <div>
                  <img className='h-6 flex items-center cursor-pointer' src={Logo} alt="" />
@@ -32,6 +32,7 @@ const Nav = () => {
                 <ul className='flex gap-3'>
                     <li><Link className={Change('home')} to='/'>Home</Link></li>
                     <li><Link className={Change('products')} to='/products'>Menu</Link></li>
+                    <li><Link className={Change('promos')} to='/promos'>Promos</Link></li>
                 </ul>
                 
             </div>
