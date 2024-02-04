@@ -1,41 +1,20 @@
 {
   "files": {
-    "main.css": "/pizzharot/static/css/main.a84d07f3.css",
-    "main.js": "/pizzharot/static/js/main.56635879.js",
+    "main.css": "/pizzharot/static/css/main.09be4dbc.css",
+    "main.js": "/pizzharot/static/js/main.283a38bb.js",
     "static/media/pizza2Classic.png": "/pizzharot/static/media/pizza2Classic.f0e8763cbd9f1a622d3f.png",
     "static/media/pizza1Classic.png": "/pizzharot/static/media/pizza1Classic.8f72e9e25478c31365d3.png",
     "static/media/pizza4Classic.png": "/pizzharot/static/media/pizza4Classic.31b30a6dacee3b0021b5.png",
     "static/media/pizza3Classic.png": "/pizzharot/static/media/pizza3Classic.f376bfd16e9997841200.png",
-    "static/media/pizzaHero.jpg": "/pizzharot/static/media/pizzaHero.7043444efa7241e19dce.jpg",
     "static/media/bundleHampasLupa.png": "/pizzharot/static/media/bundleHampasLupa.d3344d2d15b11bb44580.png",
-    "static/media/pizzaModelv1.png": "/pizzharot/static/media/pizzaModelv1.af9c5f17fdaacb47e75d.png",
     "static/media/bundleSolo.png": "/pizzharot/static/media/bundleSolo.e91b61e0fccfa7e596cb.png",
-    "static/media/bundleBox.png": "/pizzharot/static/media/bundleBox.679f51c2ce3ae6d5ca5e.png",
     "static/media/bundleDuo.png": "/pizzharot/static/media/bundleDuo.eee2d79024c096545657.png",
-    "static/media/coachBamboo.png": "/pizzharot/static/media/coachBamboo.74178ede9da1f5ebc393.png",
-    "static/media/coachLeah.png": "/pizzharot/static/media/coachLeah.da5f49b074f37b3a7402.png",
-    "static/media/pizzaSpinachFeta.png": "/pizzharot/static/media/pizzaSpinachFeta.315b8ce326c69c66439b.png",
-    "static/media/pizzaBacon&Spinach.png": "/pizzharot/static/media/pizzaBacon&Spinach.403adc70863635dffddc.png",
-    "static/media/coachMartin.png": "/pizzharot/static/media/coachMartin.4cac3d7bb9d332a50874.png",
-    "static/media/pizzaAmericanBacon.png": "/pizzharot/static/media/pizzaAmericanBacon.0e1e2cc14c0766dc37fc.png",
-    "static/media/pizzaDeluxe.png": "/pizzharot/static/media/pizzaDeluxe.9d602aa1fb1e6a67d5b0.png",
-    "static/media/coachChito.png": "/pizzharot/static/media/coachChito.0c2afa6a5c86dc4e41dd.png",
-    "static/media/pizzaExtravaganzza.png": "/pizzharot/static/media/pizzaExtravaganzza.941e700fcb642477e5bf.png",
-    "static/media/pizzaUltimatePepperoni.png": "/pizzharot/static/media/pizzaUltimatePepperoni.2881bb652dce1b4d830d.png",
-    "static/media/pizzaBacon&Mushroom.png": "/pizzharot/static/media/pizzaBacon&Mushroom.1013e6974fead371c869.png",
-    "static/media/pizzaMeatzza.png": "/pizzharot/static/media/pizzaMeatzza.ecec64c22be500c11ecd.png",
-    "static/media/pizza5Cheese.png": "/pizzharot/static/media/pizza5Cheese.e247c608537d1f676613.png",
-    "static/media/pizzaAloha.png": "/pizzharot/static/media/pizzaAloha.94ee66f07388440688de.png",
-    "static/media/pizzaHam&Cheese.png": "/pizzharot/static/media/pizzaHam&Cheese.222e0b9e41318574f244.png",
-    "static/media/pizzaCarbonara.png": "/pizzharot/static/media/pizzaCarbonara.50e176e07988104205cc.png",
-    "static/media/coachApple.png": "/pizzharot/static/media/coachApple.0287ef2323c7cfbc8b70.png",
-    "static/media/coachSara.png": "/pizzharot/static/media/coachSara.bb2dced0f8a1c3aadd01.png",
     "index.html": "/pizzharot/index.html",
-    "main.a84d07f3.css.map": "/pizzharot/static/css/main.a84d07f3.css.map",
-    "main.56635879.js.map": "/pizzharot/static/js/main.56635879.js.map"
+    "main.09be4dbc.css.map": "/pizzharot/static/css/main.09be4dbc.css.map",
+    "main.283a38bb.js.map": "/pizzharot/static/js/main.283a38bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a84d07f3.css",
-    "static/js/main.56635879.js"
+    "static/css/main.09be4dbc.css",
+    "static/js/main.283a38bb.js"
   ]
 }
