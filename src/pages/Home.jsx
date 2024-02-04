@@ -1,21 +1,18 @@
 import React from 'react'
-import Hero from "../components/Hero";
-import Menus from "../components/Menus";
-import Bundle from "../components/Bundle";
-import Inquiry from "../components/Inquiry";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import Review from "../components/Review";
+import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
+
 
 const Home = () => {
   return (
     <div>
-        <Hero />
-        <Menus />
-        <Bundle />
-        <Inquiry />
-        <Review />
-        <Contact />
+      <div className='grid my-[10%] place-items-center'>
+          <h1 className='text-3xl text-white'>This is Home Page</h1>
+          <p className='text-lg text-white mt-4'>
+            <Link to='products'>List of Products</Link>
+          </p>
+      </div>
+        
         <Footer />
   
     </div>
