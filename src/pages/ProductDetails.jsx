@@ -11,6 +11,7 @@ const ProductDetails = () => {
     <div>
       <div className='grid my-[10%] place-items-center'>
             <h1  className='text-3xl text-white'>Product Details shows here!</h1>
+            
             <p className='text-xl text-white mt-6'>{params.productId}</p>
             <Link to='..' relative='path' className='text-white mt-10 hover:text-amber-500'>Back</Link>
       </div>
